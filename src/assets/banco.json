@@ -1,0 +1,16 @@
+{
+    "veiculosCard": [
+        {
+            "imgUrl": "https://i.imgur.com/CaSzpfs.jpeg",
+            "titulo": "Renegade",
+            "subTitulo": "O melhor carro da categoria do Brasil",
+            "descricao": "Ideal para curtir um final de semana com os amigos ou viajar pelo Brasil"
+        },
+        {
+            "imgUrl": "https://i.imgur.com/CaSzpfs.jpeg",
+            "titulo": "Renegade",
+            "subTitulo": "O melhor carro da categoria do Brasil",
+            "descricao": "Ideal para curtir um final de semana com os amigos ou viajar pelo Brasil"
+        }
+    ]
+}

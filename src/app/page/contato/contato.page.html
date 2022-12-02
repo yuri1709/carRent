@@ -1,0 +1,48 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Header</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding">
+
+    <h1>Cards</h1>
+    <div class="cards" *ngFor="let veiculo of veiculosCard; index as i">
+      <ion-card>
+        <img class="cardsImg" [src]="veiculo.imgUrl" alt="">
+        <ion-card-header>
+          <ion-card-title class="textStyle">{{veiculo.titulo}}</ion-card-title>
+          <ion-card-subtitle><p>{{veiculo.subTitulo}}</p></ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <p>{{veiculo.descricao}}</p>
+        </ion-card-content>  
+        <ion-button id="open-custom-dialog">
+          <ion-icon slot="start" name="star"></ion-icon>
+          info
+        </ion-button>
+        <!-- MODAL -->
+        <ion-modal id="example-modal" #modal trigger="open-custom-dialog">
+          <ng-template>
+            <div class="wrapper">
+              <h1>Dialog header</h1>
+              <ion-list lines="none">
+                <ion-item> 
+                  <ion-icon name="person-circle"></ion-icon>
+                  <ion-label>Item 1</ion-label>
+                </ion-item>
+              </ion-list>
+            </div>
+          </ng-template>
+        </ion-modal>
+      </ion-card>
+    </div>
+  </ion-content>
+
+  <ion-footer>
+    <ion-toolbar>
+      <ion-title>Footer</ion-title>
+    </ion-toolbar>
+  </ion-footer> 
+  </ion-app>>
