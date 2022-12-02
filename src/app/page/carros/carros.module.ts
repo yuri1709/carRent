@@ -2,17 +2,17 @@ import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { FormsModule } from "@angular/forms";
 import { IonicModule } from "@ionic/angular";
-import { ContatoPageRoutingModule } from "./contato-routing.module";
-import { ContatoPage } from "./contato.component";
+import { CarrosPageRoutingModule } from "./carros-routing.module";
+import { CarrosPage } from "./carros.component";
 
 @NgModule({
     imports: [
         CommonModule,
         IonicModule,
         FormsModule,
-        ContatoPageRoutingModule
+        CarrosPageRoutingModule
     ],
-    declarations: [ContatoPage]
+    declarations: [CarrosPage]
 })
 
-export class ContatoPageModule {}
+export class CarrosPageModule {}

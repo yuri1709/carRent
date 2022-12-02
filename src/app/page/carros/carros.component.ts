@@ -2,11 +2,11 @@ import { Component } from "@angular/core";
 import { HttpClient } from '@angular/common/http';
 import { VeiculoCard } from "src/app/core/models/veiculosRent.models";
 @Component({
-    selector: 'app-contato',
-    templateUrl: 'contato.page.html',
-    styleUrls: ['contato.page.scss']
+    selector: 'app-carros',
+    templateUrl: 'carros.page.html',
+    styleUrls: ['carros.page.scss']
 })
-export class ContatoPage {
+export class CarrosPage {
 
     veiculosCard: VeiculoCard[] = []
 
